@@ -11,6 +11,8 @@
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  margin-left: auto; /*Центрирует боди*/
+  margin-right: auto; /*Центрирует боди*/
   /*min-inline-size: 375px;*/
 }
 
@@ -165,6 +167,10 @@
   color: var(--text-color-in-paragraph);
   line-height: var(--main-line-height, 23.4px);
 }
+
+.section-text__paragraph + .section-text__paragraph {
+  margin-block-start: 10px;
+} /*Добавляет отсуп между рядом стоящими параграфами*/
 
 /*---------ССЫЛКА---------*/
 
