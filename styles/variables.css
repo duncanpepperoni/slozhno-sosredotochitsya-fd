@@ -11,14 +11,18 @@
   --text-color-in-paragraph: #f1b2ce;
 
   /*Общие переменные*/
-  --main-padding: 0 10px;
+  /*--main-padding: 0 10px;*/
   --h-f-title-font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --font-family: IBM Plex mono;
   --font-weight_normal: normal;
   --font-weight_bold: bold;
   --main-font-size: 18px;
-  --main-line-height: 130%;
+  --main-line-height: 23.4px;
+  --main-title-line-height: 82.5%;
+  --nav-line-height: 18px;
+  --rec-line-height: 25px;
+  /*--main-line-height: 130%;
   --main-title-line-height: 83%;
   --nav-line-height: 100%;
-  --rec-line-height: 139%;
+  --rec-line-height: 139%;*/
 }
