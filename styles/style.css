@@ -85,8 +85,8 @@
 .header__paragraf-text {
   color: var(--title-text-color, #000028);
   font-weight: var(--font-weight_bold, bold);
-  background-color: var(--background-color-title, #ff0070);
   line-height: var(--main-line-height, 23.4px);
+  background-color: var(--background-color-title, #ff0070);
 }
 
 /*---------УГОЛОКИ И REC---------*/
@@ -154,14 +154,14 @@
   color: var(--title-text-color);
   font-weight: var(--font-weight_bold);
   font-size: var(--main-font-size);
-  background-color: var(--background-color-title);
   line-height: var(--main-line-height, 23.4px);
+  background-color: var(--background-color-title);
 }
 
 .section-text__paragraph {
+  margin-block-end: 20px;
   color: var(--text-color-in-paragraph);
   line-height: var(--main-line-height, 23.4px);
-  margin-block-end: 20px;
 }
 
 /*---------ССЫЛКА---------*/
@@ -204,8 +204,8 @@
   color: var(--title-text-color, #000028);
   font-weight: var(--font-weight_bold, bold);
   font-size: var(--main-font-size, 18px);
-  background-color: var(--background-color-title, #ff0070);
   line-height: var(--main-line-height, 23.4px);
+  background-color: var(--background-color-title, #ff0070);
 }
 
 .section-image__list {
@@ -252,13 +252,13 @@
     padding: 0px 20px;
   }
   .header {
-    padding-top: 10px;
     /*margin-block-start: 10px;*/
     margin-block-end: 60px;
+    padding-top: 10px;
   }
-  .decorated-zone::before {
-    bottom: 0px;
-  }
+  /*.decorated-zone::before {
+    bottom: 10px;
+  }*/
 
   .decorated-zone::after {
     top: 20px;
@@ -291,10 +291,17 @@
     grid-template-columns: min-content 1fr;
     gap: 20px;
   }
+
   .section-text:nth-child(1) .section-text__article {
     display: grid;
     gap: 20px;
   }
+
+  .section-text:nth-child(2) .section-text__article {
+    display: grid;
+    gap: 20px;
+  }
+
   .section-text:nth-child(3) .section-text__article .section-text__list {
     display: grid;
     gap: 20px;
